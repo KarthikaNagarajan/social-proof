@@ -1,0 +1,138 @@
+body{
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+  position: relative;
+  overflow-x: hidden;
+}
+.top{
+  position: absolute;
+}
+.bottom{
+  position: absolute;
+  top:150px;
+  left:250px;
+}
+.container-fluid{
+  padding:100px;
+}
+.row{
+  padding : 30px;
+}
+.heading{
+  color:hsl(300, 43%, 22%);
+  font-weight: bold;
+  padding-right: 100px;
+}
+.intro{
+  color:hsl(303, 10%, 53%)
+}
+.rating{
+ color: hsl(300, 43%, 22%);
+ font-weight: bold;
+
+}
+.review,.report,.besttech{
+  background-color:hsl(300, 24%, 96%);
+  border-radius: 10px;
+  font-size: 12px;
+  padding:10px 50px 10px 30px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.rating .review{
+  padding-right: 76px;
+}
+.rating .report{
+  margin-left: 40px;
+}
+.rating .besttech{
+  padding-right: 76px;
+  margin-left: 80px;
+}
+.star{
+  float: left;
+  padding: 5px 5px ; 
+}
+.rating-text{
+  padding:5px 0 5px 170px;
+  margin-bottom: 0;
+} 
+.anne, .irene, .colton{
+  background-color:hsl(300, 43%, 22%);
+  color:white;
+  padding: 30px 30px 20px;
+  margin :5px;
+  border-radius: 10px; 
+  font-size: 12px;
+}
+.irene{
+  margin-top: 20px;
+}
+.anne{
+  margin-top:40px
+
+}
+.profile-pic{
+  border-radius:50%;
+  height:50px;
+  float:left;
+}
+.name{
+  color:white;
+  margin-left:80px;
+  margin-bottom: 5px;
+}
+.verified-buyer{
+  color:hsl(333, 80%, 67%);
+  margin-left:80px;
+  margin-bottom: 30px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media(max-width:500px){
+  .body{
+    text-align: center;
+  }
+  .container-fluid{
+    padding-left : 2px;
+    padding-right:2px;
+    text-align: center;
+  }
+  .heading{
+    padding-right: 0;
+  }
+  .intro{
+    font-size: 15px;
+    padding:35px;
+  }
+  .rating .review,.rating .report,.rating .besttech{
+    display: block;
+    margin-left: 0;
+    padding-left:10px;
+  }
+  .anne, .irene, .colton{
+    padding :50px 60px 40px;
+    font-size: 14px;
+    text-align: left;
+  }
+  .irene{
+    margin-top: 10px;
+  }
+  .anne{
+    margin-top:10px
+  
+  }
+  .bottom{
+    position: absolute;
+    top:800px;
+    left:30px;
+  }
+
+}
